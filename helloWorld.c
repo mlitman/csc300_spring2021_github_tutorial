@@ -8,5 +8,6 @@ int main(int argc, char** argv)
     int b = *a_ptr;
     int* b_ptr = &b;
     printf("a = %d, a_ptr = %p\n b = %d, b_ptr = %p", a,a_ptr, b, b_ptr);
+    printf("hello world\n");
     return 0;
 }
